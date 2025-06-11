@@ -12,8 +12,8 @@ function SalaryList() {
         <h1>Task 4</h1> 
         <ol>
             {workersList.map((worker) => (
-                <li key={worker.id}>
-                    {worker.name}: {worker.salary} грн.
+                <li key={worker.id} style={{ textAlign: 'start'}}>
+                    {worker.name}: {worker.salary} UAH.
                 </li>
             ))}
         </ol>
