@@ -13,7 +13,7 @@ function TicketClass() {
     const imgBusiness = "https://www.evaair.com/sc-cn/images/rl_logo_tcm29-93486.jpg"
     const imgEconomy = "https://www.flyhpa.com/files/2017/07/2017.07.06-06.53-flyhpa-595e871fc6722.jpg"
     const imgAirplane = "https://calaero.edu/wp-content/uploads/2018/05/Airplane-Landings.jpg"
-    const [ticketType, setTicketType] = useState(null);
+    const [ticketType, setTicketType] = useState('');
 
     function handleTicketTypeChange(e) {
         setTicketType(e.target.value);
